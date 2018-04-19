@@ -18,7 +18,7 @@ object ConditionalService {
 
   def stringContainsHello(str: String): String = ???
 
-  def moreThanTenMoreThanTwenty(x: Int): String = ???
+  def moreThanTenMoreThanTwenty(x: Int): Int = ???
 
   def divideIfEvenMultiplyIfOdd(num: Int, factor: Int): String = ???
 

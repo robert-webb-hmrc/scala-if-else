@@ -199,7 +199,7 @@ class ConditionalServiceSpec extends WordSpec with Matchers {
       ConditionalService.getResponseTypeWithDetail(200) shouldBe "here you go"
     }
     "return 'here you go: ACCEPTED' for 202" in {
-      ConditionalService.getResponseTypeWithDetail(200) shouldBe "here you go: ACCEPTED"
+      ConditionalService.getResponseTypeWithDetail(202) shouldBe "here you go: ACCEPTED"
     }
     "return 'here you go' for 299" in {
       ConditionalService.getResponseTypeWithDetail(299) shouldBe "here you go"
