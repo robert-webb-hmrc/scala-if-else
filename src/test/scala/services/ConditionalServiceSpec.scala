@@ -4,7 +4,7 @@ import org.scalatest.{Matchers, WordSpec}
 
 class ConditionalServiceSpec extends WordSpec with Matchers {
 
-  /*
+
   "moreThanThree" should {
     "return 'more' if given a value higher than three" in {
       ConditionalService.moreThanThree(4) shouldBe "more"
@@ -199,7 +199,7 @@ class ConditionalServiceSpec extends WordSpec with Matchers {
       ConditionalService.getResponseTypeWithDetail(200) shouldBe "here you go"
     }
     "return 'here you go: ACCEPTED' for 202" in {
-      ConditionalService.getResponseTypeWithDetail(200) shouldBe "here you go: ACCEPTED"
+      ConditionalService.getResponseTypeWithDetail(202) shouldBe "here you go: ACCEPTED"
     }
     "return 'here you go' for 299" in {
       ConditionalService.getResponseTypeWithDetail(299) shouldBe "here you go"
@@ -232,6 +232,5 @@ class ConditionalServiceSpec extends WordSpec with Matchers {
       ConditionalService.getResponseTypeWithDetail(599) shouldBe "error - my fault"
     }
   }
-  */
 
 }
