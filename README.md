@@ -5,5 +5,7 @@ This is an example Scala application to play with if/else conditions. To compile
 $ sbt test
 ```
 from the repo's root directory.
-  
+
 The aim is to get all the tests to pass.
+
+teset
